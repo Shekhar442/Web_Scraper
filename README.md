@@ -1,11 +1,11 @@
-# 🌐 Web Scraper with Selenium
+# Web Scraper with Selenium
 
 A modern, user-friendly web scraping application built with Streamlit and Selenium. This tool allows you to scrape dynamic websites that require JavaScript rendering, extract various types of content, and export the results in multiple formats.
 
-## ✨ Features
+## Features
 
-- **🌐 Dynamic Web Scraping**: Uses Selenium to handle JavaScript-rendered content
-- **📊 Multiple Scraping Options**:
+- **Dynamic Web Scraping**: Uses Selenium to handle JavaScript-rendered content
+- **Multiple Scraping Options**:
   - Headers (h1-h6 tags)
   - Links (all anchor tags)
   - Paragraphs (p tags)
@@ -13,19 +13,19 @@ A modern, user-friendly web scraping application built with Streamlit and Seleni
   - Audio Files (audio tags, source elements, and audio file links)
   - Tables (extracted as structured data)
   - All text content (complete page text)
-- **💾 Export Options**: Download results as CSV, TXT, or JSON
-- **⚙️ Configurable Settings**: Adjustable wait time for JavaScript rendering
-- **🎨 Modern UI**: Clean, intuitive interface built with Streamlit
-- **🔧 Automatic Driver Management**: Uses webdriver-manager for hassle-free ChromeDriver setup
-- **🛡️ Error Handling**: Robust error handling for timeouts and WebDriver issues
+- **Export Options**: Download results as CSV, TXT, or JSON
+- **Configurable Settings**: Adjustable wait time for JavaScript rendering
+- **Modern UI**: Clean, intuitive interface built with Streamlit
+- **Automatic Driver Management**: Uses webdriver-manager for hassle-free ChromeDriver setup
+- **Error Handling**: Robust error handling for timeouts and WebDriver issues
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.7 or higher
 - Google Chrome browser installed
 - Internet connection
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -38,7 +38,7 @@ A modern, user-friendly web scraping application built with Streamlit and Seleni
    pip install -r requirements.txt
    ```
 
-## 🎯 Usage
+## Usage
 
 1. **Start the Streamlit application**:
    ```bash
@@ -51,16 +51,15 @@ A modern, user-friendly web scraping application built with Streamlit and Seleni
    - Enter the URL you want to scrape in the input field
    - Select the scraping options from the sidebar (headers, links, paragraphs, images, audio files, tables, or all text)
    - Adjust the wait time slider if needed (default: 5 seconds)
-   - Click the "🚀 Scrape Website" button
+   - Click the "Scrape Website" button
    - View the results in expandable sections
    - For audio files, you can preview them directly in the app using the built-in audio players
    - Download the data in your preferred format (CSV, TXT, or JSON)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Web_Scraper/
-│
 ├── app.py                          # Main Streamlit application
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # Project documentation
@@ -68,7 +67,7 @@ Web_Scraper/
 └── import requests  dynamic websites.py  # Example: Dynamic website scraping with Selenium
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Wait Time
 Adjust the wait time slider in the sidebar to control how long the browser waits for JavaScript to render. This is especially useful for slow-loading websites or pages with heavy JavaScript content.
@@ -88,7 +87,7 @@ Select one or more options from the sidebar:
 - **Tables**: Extracts table data as structured DataFrames
 - **All Text**: Extracts all text content from the page
 
-## 📦 Dependencies
+## Dependencies
 
 - **streamlit**: Web application framework
 - **selenium**: Web browser automation
@@ -97,7 +96,7 @@ Select one or more options from the sidebar:
 - **webdriver-manager**: Automatic ChromeDriver management
 - **requests**: HTTP library (for example scripts)
 
-## 🎨 Example Usage
+## Example Usage
 
 ### Basic Scraping
 1. Enter URL: `https://example.com`
@@ -121,7 +120,7 @@ Select one or more options from the sidebar:
 5. Use the embedded audio players to preview files directly
 6. Download the audio file list as CSV
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### ChromeDriver Issues
 The application uses `webdriver-manager` to automatically download and manage ChromeDriver. If you encounter issues:
@@ -141,26 +140,26 @@ For very large websites:
 - Consider scraping in smaller batches
 - Close the browser between scraping sessions
 
-## 📝 Notes
+## Notes
 
 - The application runs in headless mode by default (no visible browser window)
 - Some websites may have anti-scraping measures; use responsibly and respect robots.txt
 - Always check the website's terms of service before scraping
 - The scraper waits for JavaScript to render, making it suitable for Single Page Applications (SPAs)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 👤 Author
+## Author
 
 Created as part of the Web Scraper project.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Streamlit for the amazing web app framework
 - Selenium for web automation capabilities
@@ -169,5 +168,5 @@ Created as part of the Web Scraper project.
 
 ---
 
-**Happy Scraping! 🚀**
+**Happy Scraping!**
 
