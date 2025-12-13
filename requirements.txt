@@ -1,6 +1,9 @@
 requests
 beautifulsoup4
 selenium
+streamlit
+webdriver-manager
+pandas
 absl-py==1.0.0
 astunparse==1.6.0
 flatbuffers==24.3.25
